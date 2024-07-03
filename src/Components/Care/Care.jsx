@@ -10,32 +10,37 @@ const Care = () => {
         <div className=''>
             <h1 className=' text-center font-font1 text-5xl w-[532px] mx-auto font-bold mt-10'>Comprehensive Care for Every Patient</h1>
            <div className=' grid grid-cols-5 gap-5 -mt-16'>
-           <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[312px]'>
+           <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[312px] space-y-4'>
                 <h1 className=' text-4xl font-font1 font-bold'>90%</h1>
-                <p className=' font-font1'>Patient satisfaction rate, reflecting our commitment</p>
-                <img src={chart} alt="" />
+                <p className=' font-font1 text[20px] w-[156px]'>Patient satisfaction rate, reflecting our commitment</p>
+                <img className=' translate-x-10 w-32' src={chart} alt="" />
             </div>
-            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[190px] mt-[121px]'>
-                <h1>500+</h1>
-                <p>Board-certified doctors</p>
-                <img src={contract} alt="" />
+            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[190px] mt-[121px] space-y-2'>
+                <h1 className=' text-4xl font-font1 font-bold'>500+</h1>
+                <p className='font-font1 w-[115px]'>Board-certified doctors</p>
+                <img className=' translate-x-24 -translate-y-3' src={contract} alt="" />
             </div>
-            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[162px] mt-[149px]'>
-                <h1 className='flex items-center gap-5'>4.8 <img className=' w-5' src={star} alt="" /></h1>
-                <p>Over 20,000 Patient</p>
+            <div className='w-[216px] bg-[#FBFBFB] p-3 rounded-2xl border h-[162px] mt-[149px] space-y-2'>
+                <h1 className='flex items-center gap-5 text-5xl font-bold '>4.8 <img className=' w-10' src={star} alt="" /></h1>
+                <p className='font-font1'>Over 20,000 Patient</p>
+                <div className='flex'>
                 <img src={Ellipse} alt="" />
+                <img src={Ellipse} alt="" />
+                <img src={Ellipse} alt="" />
+                <img src={Ellipse} alt="" />
+                </div>
             </div>
-            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[190px] mt-[121px]'>
-                <h1>$5000</h1>
-                <p>Money spend
+            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[190px] mt-[121px] space-y-2'>
+                <h1 className=' text-4xl font-font1 font-bold'>$5000</h1>
+                <p className=' font-font1 w-[115px]'>Money spend
                 for poor patient</p>
-                <img src={coin} alt="" />
+                <img className=' translate-x-20 -translate-y-2' src={coin} alt="" />
             </div>
-            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[312px] '>
-                <h1>50+</h1>
-                <p>Free lession video 
+            <div className='w-[216px] bg-color3 p-3 rounded-2xl border h-[316px] space-y-2 '>
+                <h1 className=' text-4xl font-font1 font-bold'>50+</h1>
+                <p className=' font-font1 w-[156px]'>Free lession video 
                 for patient</p>
-                <img src={camera} alt="" />
+                <img className=' translate-x-10 translate-y-9' src={camera} alt="" />
             </div>
            </div>
         </div>
