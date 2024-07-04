@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar/NavBar'
 import Banner from './Components/Banner/Banner'
 import Care from './Components/Care/Care'
 import Solution from './Components/Solution/Solution'
+import Improve from './Components/ImproveHelth/Improve'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner></Banner>
       <Care></Care>
       <Solution></Solution>
+      <Improve></Improve>
       </div>
     </div>
   )

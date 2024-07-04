@@ -12,7 +12,8 @@ export default {
       colors:{
         color1:'#D9EFFA',
         color2:'#C7DBE5',
-        color3:'#FBFBFB'
+        color3:'#FBFBFB',
+        accent:'#FFC637'
       }
     },
   },
