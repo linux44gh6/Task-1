@@ -7,6 +7,8 @@ import Banner from './Components/Banner/Banner'
 import Care from './Components/Care/Care'
 import Solution from './Components/Solution/Solution'
 import Improve from './Components/ImproveHelth/Improve'
+import Review from './Components/Review/Review'
+import FAQ from './Components/FAQ/FAQ'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Care></Care>
       <Solution></Solution>
       <Improve></Improve>
+      <Review></Review>
+      <FAQ></FAQ>
       </div>
     </div>
   )

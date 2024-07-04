@@ -2,7 +2,7 @@ import React from 'react';
 import { FiArrowUpRight } from "react-icons/fi";
 const Improve = () => {
     return (
-        <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-40 bg-[#FFFFF5] gap-6 px-14 py-10 
+        <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mt-40 bg-[#FFFFF5] gap-6 lg:px-14 py-10 
         rounded-[32px]'>
             
             <div className=' w-full md:w-[499px] lg:w-[499px] '>

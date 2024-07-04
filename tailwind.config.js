@@ -13,7 +13,8 @@ export default {
         color1:'#D9EFFA',
         color2:'#C7DBE5',
         color3:'#FBFBFB',
-        accent:'#FFC637'
+        accent:'#FFC637',
+        secondary_accent:'#FFFFF5'
       }
     },
   },
