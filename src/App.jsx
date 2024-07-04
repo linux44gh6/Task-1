@@ -9,6 +9,8 @@ import Solution from './Components/Solution/Solution'
 import Improve from './Components/ImproveHelth/Improve'
 import Review from './Components/Review/Review'
 import FAQ from './Components/FAQ/FAQ'
+import Discount from './Components/Discount/Discount'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       <Improve></Improve>
       <Review></Review>
       <FAQ></FAQ>
+      <Discount></Discount>
       </div>
+      <Footer></Footer>
     </div>
   )
 }
