@@ -14,7 +14,7 @@ const Solution = () => {
            <div className=' relative'>
            <img className=' w-[518px] h-[315px]' src="https://i.ibb.co/Dk8kDHx/Rectangle-24.png" alt="" />
            </div>
-            <div className=' w-full md:w-[380px] lg:w-[380px] bg-[#343268] text-white  px-4 py-10 rounded-2xl md:absolute lg:absolute md:-translate-y-28 lg:-translate-y-28 md:-translate-x-32 lg:-translate-x-32'>
+            <div className=' w-full md:w-[380px] lg:w-[380px] bg-[#343268] text-white  px-4 py-10 rounded-2xl md:absolute lg:absolute md:-translate-y-16 lg:-translate-y-28 md:-translate-x-0 lg:-translate-x-32'>
                 <h1 className=' font-font1 text-4xl'>Our mission is simple</h1>
                 <p className='font-font1 w-[374px]'>To provide high-quality healthcare services that are accessible, personalized, and patient-centered.</p>
             </div>

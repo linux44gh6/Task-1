@@ -9,7 +9,7 @@ const Care = () => {
     return (
         <div className=''>
             <h1 className=' text-center font-font1 text-2xl md:text-text-5xl lg:text-5xl w-full md:w-[532px] lg:w-[532px] mx-auto font-bold mt-10'>Comprehensive Care for Every Patient</h1>
-           <div className=' grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 gap-1 md:gap-5 lg:gap-5 lg:-mt-16'>
+           <div className=' grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-1 md:gap-5 lg:gap-5 lg:-mt-16'>
            <div className=' w-full md:w-[216px] lg:w-[216px] bg-color3 p-3 rounded-2xl border h-[312px] space-y-4'>
                 <h1 className=' text-4xl font-font1 font-bold'>90%</h1>
                 <p className=' font-font1 text[20px] w-[156px]'>Patient satisfaction rate, reflecting our commitment</p>
